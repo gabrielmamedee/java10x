@@ -11,8 +11,8 @@ public class Array {
 
         System.out.println(ninja[1]);
 
-        for (int i = 0; i < ninja.length; i++) {
-            System.out.println(ninja[i]);
+        for (String s : ninja) {
+            System.out.println(s);
         }
     }
 }
