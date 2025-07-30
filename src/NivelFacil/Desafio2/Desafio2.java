@@ -1,4 +1,4 @@
-package Desafio2;
+package NivelFacil.Desafio2;
 
 import java.util.Scanner;
 
@@ -43,7 +43,7 @@ public class Desafio2 {
                             System.out.println(ninjas[i].getNome());
                         }
                     } else {
-                        System.out.println("Array vazio");
+                        System.out.println("NivelFacil.Array vazio");
                     }
                     break;
                 case 3:

@@ -1,4 +1,4 @@
-package Desafio2;
+package NivelFacil.Desafio2;
 
 public class Ninja {
     private String nome;
