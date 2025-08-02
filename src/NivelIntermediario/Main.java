@@ -3,12 +3,13 @@ package NivelIntermediario;
 public class Main {
     public static void main(String[] args) {
 
-        Ninja Naruto = new Ninja();
+        Uzumaki Naruto = new Uzumaki();
         Naruto.nome = "Naruto Uzumaki";
         Naruto.aldeia = "Aldeia da Folha";
         Naruto.idade = 17;
+        Naruto.ModoSabioAtivado();
 
-        Ninja Sasuke = new Ninja();
+        Uchiha Sasuke = new Uchiha();
         Sasuke.nome = "Sasuke Uchiha";
         Sasuke.aldeia = "Aldeia da Folha";
         Sasuke.idade = 18;
@@ -21,9 +22,10 @@ public class Main {
         int quantoTempoFalta = Sasuke.anosParaSeTornarHokage(70);
         System.out.println("Voce tem: " + Sasuke.idade + " entao fala: " + quantoTempoFalta);
 
-        Ninja Sakura = new Ninja();
-        Sasuke.nome = "Sakura Haruna";
+        Haruno Sakura = new Haruno();
+        Sakura.nome = "Sakura Haruna";
         Sakura.aldeia = "Aldeia da Folha";
         Sakura.idade = 18;
+        Sakura.AtivarCura();
     }
 }
