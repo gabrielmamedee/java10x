@@ -39,5 +39,7 @@ public class Main {
         Boruto.aldeia = "Aldeia da folha";
         Boruto.idade = 9;
         Boruto.ModoSabioAtivado();
+
+
     }
 }
